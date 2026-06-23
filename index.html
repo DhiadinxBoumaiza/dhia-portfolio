@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhia Eddine Boumaiza | Portfolio</title>
+  <meta name="description" content="Portfolio responsive de Dhia Eddine Boumaiza — réseaux, cloud, automatisation, sécurité et solutions IT." />
+  <link rel="icon" href="assets/dhia.jpg" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="page-glow page-glow-one"></div>
+  <div class="page-glow page-glow-two"></div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Navigation principale">
+      <a class="brand" href="#home" aria-label="Dhia Eddine Boumaiza home">
+        <span class="brand-dot"></span>
+        <span>Dhia Eddine</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-panel" id="navPanel">
+        <a href="#about" data-i18n="nav.about">À propos</a>
+        <a href="#experience" data-i18n="nav.experience">Expérience</a>
+        <a href="#projects" data-i18n="nav.projects">Projets</a>
+        <a href="#skills" data-i18n="nav.skills">Compétences</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <div class="language-switcher" aria-label="Language switcher">
+          <button class="lang-btn active" data-lang="fr">FR</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="ar">AR</button>
+        </div>
+        <a class="nav-cta" href="https://www.linkedin.com/in/dhiaeddin-boumaiza-a4b1b1222/" target="_blank" rel="noreferrer" data-i18n="nav.linkedin">LinkedIn</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-photo-wrap reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <img src="assets/dhia.jpg" alt="Portrait de Dhia Eddine Boumaiza" class="hero-photo" />
+      </div>
+
+      <div class="hero-content reveal delay-1">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Portfolio personnel</p>
+        <h1>
+          <span data-i18n="hero.greeting">Bonjour, je suis</span>
+          <strong>Dhia Eddine Boumaiza</strong>
+        </h1>
+        <h2 class="gradient-text" data-i18n="hero.role">Spécialiste IT — Réseaux, Cloud & Automatisation</h2>
+        <p class="hero-copy" data-i18n="hero.copy">Je conçois des solutions IT sécurisées et automatisées : réseaux, déploiement, hébergement, données et workflows intelligents.</p>
+
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="assets/Dhia_Eddine_Boumaiza_CV.pdf" download data-i18n="hero.download">Télécharger CV</a>
+          <a class="btn btn-secondary" href="#contact" data-i18n="hero.contact">Me contacter</a>
+          <a class="btn btn-ghost" href="https://trstd.online" target="_blank" rel="noreferrer">trstd.online</a>
+        </div>
+
+        <div class="social-row" aria-label="Social links">
+          <a href="mailto:dhiaeddin.boumaiza@gmail.com" aria-label="Email" title="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5h17A1.5 1.5 0 0 1 22 6.5v11A1.5 1.5 0 0 1 20.5 19h-17A1.5 1.5 0 0 1 2 17.5v-11A1.5 1.5 0 0 1 3.5 5Zm.9 2 7.6 5.2L19.6 7H4.4Zm15.6 1.7-7.4 5a1 1 0 0 1-1.2 0L4 8.7V17h16V8.7Z"/></svg>
+          </a>
+          <a href="tel:+21629173512" aria-label="Phone" title="Phone">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 2.8 9.3 5a2 2 0 0 1 .6 2.2l-.8 2.1a13 13 0 0 0 5.6 5.6l2.1-.8a2 2 0 0 1 2.2.6l2.2 2.7a2 2 0 0 1-.1 2.7l-1.2 1.2c-.9.9-2.2 1.2-3.4.8C9.4 19.7 4.3 14.6 1.9 7.5c-.4-1.2-.1-2.5.8-3.4L3.9 3a2 2 0 0 1 2.7-.2Z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/dhiaeddin-boumaiza-a4b1b1222/" target="_blank" rel="noreferrer" aria-label="LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.8h4v10.7H3V9.8Zm6.2 0H13v1.5c.6-.9 1.7-1.8 3.5-1.8 3.7 0 4.4 2.4 4.4 5.6v5.4h-4v-4.8c0-1.2 0-2.7-1.7-2.7s-1.9 1.3-1.9 2.6v4.9h-4V9.8Z"/></svg>
+          </a>
+          <a href="https://trstd.online" target="_blank" rel="noreferrer" aria-label="Website" title="Website">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.9 9h-3.2a15.2 15.2 0 0 0-1.1-5 8.1 8.1 0 0 1 4.3 5ZM12 4.1c.7 1 1.4 3 1.7 6.9h-3.4c.3-3.9 1-5.9 1.7-6.9ZM4.3 13h3.9c.1 1.7.4 3.3.8 4.6A8.1 8.1 0 0 1 4.3 13Zm3.9-2H4.3A8.1 8.1 0 0 1 9 6.4 18 18 0 0 0 8.2 11Zm3.8 8.9c-.7-1-1.4-3-1.7-6.9h3.4c-.3 3.9-1 5.9-1.7 6.9Zm3-2.3c.4-1.3.7-2.9.8-4.6h3.9a8.1 8.1 0 0 1-4.7 4.6Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats section compact-section" aria-label="Quick facts">
+      <div class="stat-card reveal">
+        <strong>2026</strong>
+        <span data-i18n="stats.graduate">Diplôme IT obtenu</span>
+      </div>
+      <div class="stat-card reveal delay-1">
+        <strong>3</strong>
+        <span data-i18n="stats.internships">Expériences professionnelles</span>
+      </div>
+      <div class="stat-card reveal delay-2">
+        <strong>12</strong>
+        <span data-i18n="stats.skills">Technologies principales</span>
+      </div>
+      <div class="stat-card reveal delay-3">
+        <strong>AI</strong>
+        <span data-i18n="stats.ai">Automatisation & innovation</span>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow" data-i18n="about.eyebrow">À propos</p>
+        <h2 data-i18n="about.title">Un profil IT orienté sécurité, cloud et automatisation</h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="glass-card about-card reveal delay-1">
+          <h3 data-i18n="about.cardTitle">Profil</h3>
+          <p data-i18n="about.text">Titulaire d’une licence en Technologies de l’Information, spécialité Réseaux et Services Informatiques à l’ISET de Nabeul. Mon objectif est de créer des solutions fiables, sécurisées et faciles à utiliser pour les équipes et les clients.</p>
+        </article>
+        <article class="glass-card about-card reveal delay-2">
+          <h3 data-i18n="about.educationTitle">Formation</h3>
+          <p data-i18n="about.educationText">Licence en Technologies de l’Information — spécialité Réseaux et Services Informatiques, Institut Supérieur des Études Technologiques de Nabeul.</p>
+        </article>
+        <article class="glass-card about-card reveal delay-3">
+          <h3 data-i18n="about.valuesTitle">Valeur ajoutée</h3>
+          <p data-i18n="about.valuesText">Je combine une vision technique avec l’innovation, l’esprit entrepreneurial et une communication claire pour transformer les idées en solutions concrètes.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience section" id="experience">
+      <div class="section-heading center reveal">
+        <p class="eyebrow" data-i18n="experience.eyebrow">Parcours</p>
+        <h2 data-i18n="experience.title">Expérience</h2>
+      </div>
+
+      <div class="experience-layout">
+        <div class="experience-cards experience-cards-three">
+          <article class="experience-card featured reveal">
+            <div class="card-icon">⚙</div>
+            <p class="date">03/2026 — 06/2026 · Gafsa</p>
+            <h3 data-i18n="experience.pfeTitle">Stage PFE — Studio TRSTD Production</h3>
+            <p data-i18n="experience.pfeText">Agents intelligents pour automatiser la post-production, déploiement d’une plateforme centralisée et chatbot client interactif.</p>
+          </article>
+
+          <article class="experience-card reveal delay-1">
+            <div class="card-icon">🗄</div>
+            <p class="date">01/2025 — 02/2025 · Monastir</p>
+            <h3 data-i18n="experience.zTitle">Stage de perfectionnement — Z Coworking Space</h3>
+            <p data-i18n="experience.zText">Mise en production d’un serveur de fichiers interne avec partage documentaire sécurisé et centralisé.</p>
+          </article>
+
+          <article class="experience-card reveal delay-2">
+            <div class="card-icon">🛡</div>
+            <p class="date">01/2024 — 02/2024 · Gafsa</p>
+            <h3 data-i18n="experience.cpgTitle">Stage d’initiation — Compagnie des Phosphates de Gafsa</h3>
+            <p data-i18n="experience.cpgText">Support réseau local, maintenance préventive, diagnostic utilisateurs et rédaction de procédures IT.</p>
+          </article>
+        </div>
+
+        <div class="side-profile reveal delay-2">
+          <img src="assets/dhia.jpg" alt="Dhia Eddine Boumaiza" />
+          <div class="side-badge">
+            <strong data-i18n="experience.badgeTitle">Secure tech</strong>
+            <span data-i18n="experience.badgeText">Portfolio responsive en bleu et blanc</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-heading center reveal">
+        <p class="eyebrow" data-i18n="projects.eyebrow">Travaux récents</p>
+        <h2 data-i18n="projects.title">Projets</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-visual image-slot" data-placeholder="TRSTD Online">
+            <span>TRSTD Online</span>
+          </div>
+          <div class="project-body">
+            <p class="project-tag" data-i18n="projects.trstdTag">PFE · Automatisation</p>
+            <h3>TRSTD Online</h3>
+            <p data-i18n="projects.trstdText">Plateforme centralisée avec automatisation des flux de post-production, hébergement et chatbot client.</p>
+            <div class="project-actions">
+              <a href="https://trstd.online" target="_blank" rel="noreferrer" data-i18n="projects.live">Voir le projet</a>
+              <a href="#contact" data-i18n="projects.discuss">Discuter</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal delay-1">
+          <div class="project-visual image-slot" data-placeholder="Serveur de fichiers">
+            <span data-i18n="projects.serverTitle">Serveur de fichiers interne</span>
+          </div>
+          <div class="project-body">
+            <p class="project-tag" data-i18n="projects.serverTag">Infrastructure · Sécurité</p>
+            <h3 data-i18n="projects.serverTitle">Serveur de fichiers interne</h3>
+            <p data-i18n="projects.serverText">Solution de partage documentaire centralisée pour améliorer la sécurité, l’accès et la gestion des fichiers.</p>
+            <div class="project-actions">
+              <a href="#experience" data-i18n="projects.details">Détails</a>
+              <a href="#contact" data-i18n="projects.discuss">Discuter</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal delay-2">
+          <div class="project-visual image-slot" data-placeholder="Workflows intelligents">
+            <span data-i18n="projects.workflowTitle">Workflows intelligents</span>
+          </div>
+          <div class="project-body">
+            <p class="project-tag" data-i18n="projects.workflowTag">n8n · Data · AI</p>
+            <h3 data-i18n="projects.workflowTitle">Workflows intelligents</h3>
+            <p data-i18n="projects.workflowText">Automatisation de processus avec Python, n8n, traitement de données et intégration de services.</p>
+            <div class="project-actions">
+              <a href="#skills" data-i18n="projects.stack">Stack</a>
+              <a href="#contact" data-i18n="projects.discuss">Discuter</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow" data-i18n="skills.eyebrow">Stack</p>
+        <h2 data-i18n="skills.title">Compétences techniques</h2>
+        <p data-i18n="skills.subtitle">Les logos sont déjà préparés comme placeholders. Placez vos images dans le dossier assets/logos avec les noms indiqués.</p>
+      </div>
+
+      <div class="tech-logo-grid">
+        <article class="tech-logo-card reveal"><div class="logo-frame" data-logo="AWS"><img src="assets/logos/aws.png" alt="AWS logo" /><span>AWS</span></div><h3 data-i18n="tech.aws">AWS</h3></article>
+        <article class="tech-logo-card reveal delay-1"><div class="logo-frame" data-logo="Azure"><img src="assets/logos/azure.png" alt="Azure logo" /><span>Azure</span></div><h3 data-i18n="tech.azure">Azure</h3></article>
+        <article class="tech-logo-card reveal delay-2"><div class="logo-frame" data-logo="Linux"><img src="assets/logos/linux.png" alt="Linux logo" /><span>Linux</span></div><h3 data-i18n="tech.linux">Linux</h3></article>
+        <article class="tech-logo-card reveal delay-3"><div class="logo-frame" data-logo="Docker"><img src="assets/logos/docker.png" alt="Docker logo" /><span>Docker</span></div><h3 data-i18n="tech.docker">Docker</h3></article>
+        <article class="tech-logo-card reveal"><div class="logo-frame" data-logo="Python"><img src="assets/logos/python.png" alt="Python logo" /><span>Python</span></div><h3 data-i18n="tech.python">Python</h3></article>
+        <article class="tech-logo-card reveal delay-1"><div class="logo-frame" data-logo="Java"><img src="assets/logos/java.png" alt="Java logo" /><span>Java</span></div><h3 data-i18n="tech.java">Java</h3></article>
+        <article class="tech-logo-card reveal delay-2"><div class="logo-frame" data-logo="n8n"><img src="assets/logos/n8n.png" alt="n8n logo" /><span>n8n</span></div><h3 data-i18n="tech.n8n">n8n</h3></article>
+        <article class="tech-logo-card reveal delay-3"><div class="logo-frame" data-logo="Pandas"><img src="assets/logos/pandas.png" alt="Pandas logo" /><span>Pandas</span></div><h3 data-i18n="tech.pandas">Pandas</h3></article>
+        <article class="tech-logo-card reveal"><div class="logo-frame" data-logo="MongoDB"><img src="assets/logos/mongodb.png" alt="MongoDB logo" /><span>MongoDB</span></div><h3 data-i18n="tech.mongodb">MongoDB</h3></article>
+        <article class="tech-logo-card reveal delay-1"><div class="logo-frame" data-logo="SQL"><img src="assets/logos/sql.png" alt="SQL logo" /><span>SQL</span></div><h3 data-i18n="tech.sql">SQL</h3></article>
+        <article class="tech-logo-card reveal delay-2"><div class="logo-frame" data-logo="Network"><img src="assets/logos/network.png" alt="Network logo" /><span>Network</span></div><h3 data-i18n="tech.network">Réseaux</h3></article>
+        <article class="tech-logo-card reveal delay-3"><div class="logo-frame" data-logo="Security"><img src="assets/logos/security.png" alt="Security logo" /><span>Security</span></div><h3 data-i18n="tech.security">Sécurité</h3></article>
+      </div>
+
+      <div class="certifications reveal delay-2">
+        <h3 data-i18n="certs.title">Certifications & distinctions</h3>
+        <div class="pill-row">
+          <span>Elements of AI for Business</span>
+          <span>Data Engineer in Python — DataCamp</span>
+          <span data-i18n="certs.entrepreneur">Statut National d’Étudiant-Entrepreneur</span>
+          <span data-i18n="certs.jci">Membre actif JCI</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-heading center reveal">
+        <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+        <h2 data-i18n="contact.title">Contactez-moi</h2>
+        <p data-i18n="contact.subtitle">Pour une opportunité, un stage, un projet IT ou une collaboration.</p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-card reveal">
+          <a href="mailto:dhiaeddin.boumaiza@gmail.com"><span class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5h17A1.5 1.5 0 0 1 22 6.5v11A1.5 1.5 0 0 1 20.5 19h-17A1.5 1.5 0 0 1 2 17.5v-11A1.5 1.5 0 0 1 3.5 5Zm.9 2 7.6 5.2L19.6 7H4.4Zm15.6 1.7-7.4 5a1 1 0 0 1-1.2 0L4 8.7V17h16V8.7Z"/></svg></span><strong>Email</strong><span>dhiaeddin.boumaiza@gmail.com</span></a>
+          <a href="tel:+21629173512"><span class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 2.8 9.3 5a2 2 0 0 1 .6 2.2l-.8 2.1a13 13 0 0 0 5.6 5.6l2.1-.8a2 2 0 0 1 2.2.6l2.2 2.7a2 2 0 0 1-.1 2.7l-1.2 1.2c-.9.9-2.2 1.2-3.4.8C9.4 19.7 4.3 14.6 1.9 7.5c-.4-1.2-.1-2.5.8-3.4L3.9 3a2 2 0 0 1 2.7-.2Z"/></svg></span><strong data-i18n="contact.phone">Téléphone</strong><span>+216 29 173 512</span></a>
+          <a href="https://www.linkedin.com/in/dhiaeddin-boumaiza-a4b1b1222/" target="_blank" rel="noreferrer"><span class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.8h4v10.7H3V9.8Zm6.2 0H13v1.5c.6-.9 1.7-1.8 3.5-1.8 3.7 0 4.4 2.4 4.4 5.6v5.4h-4v-4.8c0-1.2 0-2.7-1.7-2.7s-1.9 1.3-1.9 2.6v4.9h-4V9.8Z"/></svg></span><strong>LinkedIn</strong><span>Dhia Eddine Boumaiza</span></a>
+          <a href="https://trstd.online" target="_blank" rel="noreferrer"><span class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.9 9h-3.2a15.2 15.2 0 0 0-1.1-5 8.1 8.1 0 0 1 4.3 5ZM12 4.1c.7 1 1.4 3 1.7 6.9h-3.4c.3-3.9 1-5.9 1.7-6.9ZM4.3 13h3.9c.1 1.7.4 3.3.8 4.6A8.1 8.1 0 0 1 4.3 13Zm3.9-2H4.3A8.1 8.1 0 0 1 9 6.4 18 18 0 0 0 8.2 11Zm3.8 8.9c-.7-1-1.4-3-1.7-6.9h3.4c-.3 3.9-1 5.9-1.7 6.9Zm3-2.3c.4-1.3.7-2.9.8-4.6h3.9a8.1 8.1 0 0 1-4.7 4.6Z"/></svg></span><strong data-i18n="contact.website">Site web</strong><span>trstd.online</span></a>
+        </div>
+
+        <form class="contact-form reveal delay-1" id="contactForm">
+          <label>
+            <span data-i18n="form.name">Nom</span>
+            <input type="text" name="name" data-i18n-placeholder="form.namePlaceholder" placeholder="Votre nom" required />
+          </label>
+          <label>
+            <span data-i18n="form.email">Email</span>
+            <input type="email" name="email" data-i18n-placeholder="form.emailPlaceholder" placeholder="votre@email.com" required />
+          </label>
+          <label>
+            <span data-i18n="form.message">Message</span>
+            <textarea name="message" rows="5" data-i18n-placeholder="form.messagePlaceholder" placeholder="Écrivez votre message..." required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit" data-i18n="form.submit">Envoyer</button>
+          <p class="form-note" data-i18n="form.note">Le formulaire ouvre votre application email pour envoyer le message.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <a href="#top" class="back-to-top" aria-label="Back to top">↑</a>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Dhia Eddine Boumaiza. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
